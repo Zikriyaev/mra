@@ -1,0 +1,106 @@
+body {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    background-image: url('https://media.istockphoto.com/photos/sun-on-blue-sky-picture-id1372419571?b=1&k=20&m=1372419571&s=170667a&w=0&h=4imKusTyijlQOKksfJsDPzAFHddtokz8u0axbbYQZkQ=');
+    background-repeat: no-repeat;
+    /*background-position: right;*/
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img {
+    width: 80%;
+    height: 80%;
+}
+
+a {
+    color: blue;
+    text-shadow: white;
+    text-decoration: black;
+    text-decoration-color: aquamarine;
+}
+
+.container {
+    position: relative;
+    width: 30%;
+    max-width: 300px;
+}
+
+.image {
+    display: block;
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+.icon {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: right;
+}
+
+.text {
+    position: relative;
+    font-size: 15px;
+    color: #000;
+    padding-left: 10px;
+}
+
+h3 ul{
+    color: #000;
+}
+
+.text::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 0;
+    top: 5px;
+    background: url(7.png) center 0 no-repeat;
+}
+
+div {
+    text-align: left;
+}
+
+.picture {
+    vertical-align: middle;
+}
+
+label,
+footer {
+    font-family: sans-serif;
+}
+
+label {
+    font-size: 1rem;
+    padding-right: 10px;
+}
+
+select {
+    font-size: .9rem;
+    padding: 2px 5px;
+}
+
+footer {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.output {
+    background: center/cover no-repeat url('4.jpg');
+    position: relative;
+}
+
+label {
+    font-family: "Fira Sans", sans-serif;
+}
